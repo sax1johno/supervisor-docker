@@ -2,8 +2,8 @@
 # Based on a work at https://github.com/docker/docker.
 # ------------------------------------------------------------------------------
 # Pull base image.
-FROM ubuntu
-MAINTAINER Kevin Delfour <kevin@delfour.eu>
+FROM node:argon
+MAINTAINER John O'Connor <sax1johno@gmail.com>
 
 # Install Supervisor.
 RUN \
